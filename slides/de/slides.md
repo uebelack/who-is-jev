@@ -1,11 +1,13 @@
 ---
-colorSchema: light
+layout: cover
+class: bg-horizon
+colorSchema: dark
 favicon: https://uebelacker.dev/favicon.ico
 fonts:
-  sans: ['Fira Code', 'Caveat']
-  serif: Roboto Slab
-  mono: Fira Code
-  weights: '300,400,600,700'
+  provider: none
+  sans: 'Fira Code'
+  serif: Orbitron
+  mono: 'Fira Code'
 ---
 
 # Wer ist Jev?
@@ -30,10 +32,10 @@ fonts:
 
 <div class="absolute bottom-10">
   <div class="flex items-end">
-    <img src="./images/nag.svg" style="width: 20%; filter: invert(1);" />
+    <img src="./images/nag.svg" class="logo-nag" style="width: 20%;" />
     <div style="width:45%"></div>
     <div style="width: 30%; display: flex; flex-direction: column; align-items: center;">
-      <img src="./images/qr.svg" style="width: 100%;"/>
+      <div class="qr-frame" style="width: 100%;"><img src="./images/qr.svg"/></div>
       <div>uebelacker.dev</div>
     </div>
   </div>
@@ -77,6 +79,7 @@ es landet auf deinem Tisch. Screenshots echter Posts wirken hier noch besser.
 
 ---
 layout: full
+class: bg-jev-silent
 ---
 
 <div class="big-quote">
@@ -105,6 +108,7 @@ Und stolz darauf ist.
 
 ---
 layout: statement
+class: bg-jev
 ---
 
 # Kein Text. Keine Prosa. Keine Tokens zum Parsen.
@@ -408,6 +412,7 @@ Folie im Deck.
 
 ---
 layout: fact
+class: bg-monolith
 ---
 
 # 8–11s → <1s
@@ -475,6 +480,7 @@ Kein Hype übersteht den Kontakt mit Produktion. Suche den Fehlerfall, bevor er 
 
 ---
 layout: fact
+class: bg-arcade
 ---
 
 # Was ist ein Spiel,
@@ -506,6 +512,7 @@ letzten Reihe gut.
 
 ---
 layout: fact
+class: bg-horizon
 ---
 
 # Vielen Dank!
@@ -513,7 +520,7 @@ layout: fact
 <br/>
 
 <div class="center">
-<img src="./images/qr_repo.svg" style="width: 300px"/>
+<div class="qr-frame" style="width: 300px"><img src="./images/qr_repo.svg"/></div>
 </div>
 
 https://github.com/uebelack/who-is-jev

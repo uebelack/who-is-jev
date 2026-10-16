@@ -1,11 +1,13 @@
 ---
-colorSchema: light
+layout: cover
+class: bg-horizon
+colorSchema: dark
 favicon: https://uebelacker.dev/favicon.ico
 fonts:
-  sans: ['Fira Code', 'Caveat']
-  serif: Roboto Slab
-  mono: Fira Code
-  weights: '300,400,600,700'
+  provider: none
+  sans: 'Fira Code'
+  serif: Orbitron
+  mono: 'Fira Code'
 ---
 
 # Who Is Jev?
@@ -30,10 +32,10 @@ fonts:
 
 <div class="absolute bottom-10">
   <div class="flex items-end">
-    <img src="./images/nag.svg" style="width: 20%; filter: invert(1);" />
+    <img src="./images/nag.svg" class="logo-nag" style="width: 20%;" />
     <div style="width:45%"></div>
     <div style="width: 30%; display: flex; flex-direction: column; align-items: center;">
-      <img src="./images/qr.svg" style="width: 100%;"/>
+      <div class="qr-frame" style="width: 100%;"><img src="./images/qr.svg"/></div>
       <div>uebelacker.dev</div>
     </div>
   </div>
@@ -77,6 +79,7 @@ it lands on your desk. Screenshots of real posts work even better here.
 
 ---
 layout: full
+class: bg-jev-silent
 ---
 
 <div class="big-quote">
@@ -105,6 +108,7 @@ And is proud of it.
 
 ---
 layout: statement
+class: bg-jev
 ---
 
 # No text. No prose. No tokens to parse.
@@ -406,6 +410,7 @@ benchmark them. An unnamed "local option" is the weakest slide in the deck.
 
 ---
 layout: fact
+class: bg-monolith
 ---
 
 # 8–11s → <1s
@@ -473,6 +478,7 @@ Open your codebase and search for <code>else if</code>. Start at the longest hit
 
 ---
 layout: fact
+class: bg-arcade
 ---
 
 # What is a game,
@@ -503,6 +509,7 @@ to narrate. Connect Four reads well from the back of the room.
 
 ---
 layout: fact
+class: bg-horizon
 ---
 
 # Thank you!
@@ -510,7 +517,7 @@ layout: fact
 <br/>
 
 <div class="center">
-<img src="./images/qr_repo.svg" style="width: 300px"/>
+<div class="qr-frame" style="width: 300px"><img src="./images/qr_repo.svg"/></div>
 </div>
 
 https://github.com/uebelack/who-is-jev
