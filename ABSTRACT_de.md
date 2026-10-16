@@ -5,15 +5,13 @@ Talk Abstract
 
 Kaum hast du dich an LLMs gewöhnt, kommt schon der nächste Hype: Entscheidungsmodelle. Seit September 2026 redet alle Welt von Jev, einem Modell, das keinen einzigen Satz schreiben kann und stolz darauf ist. Wer ist dieser Jev also, und muss dich das interessieren?
 
-Ein Entscheidungsmodell generiert keinen Text. Du übergibst ihm einen Zustand und eine Menge typisierter Fragen, und es antwortet mit einer Auswahl, einem Score oder einer Wahrscheinlichkeit, in einem Bruchteil einer Sekunde und zu einem Bruchteil der Kosten eines LLM-Calls. Das macht es interessant für all die kleinen Entscheidungen in unserer Software, die wir heute mit if-else-Kaskaden, handgeschriebenen Regeln oder einem überdimensionierten LLM lösen.
+Ein Entscheidungsmodell generiert keinen Text. Du übergibst ihm einen Zustand und eine Menge typisierter Fragen, und es antwortet mit einer Auswahl, einem Score oder einer Wahrscheinlichkeit, in einem Bruchteil einer Sekunde und zu einem Bruchteil der Kosten eines LLM-Calls. Das macht es interessant für all die kleinen Entscheidungen, die in unserer Software stecken und die wir heute mit if-else-Kaskaden, handgeschriebenen Regeln oder einem völlig überdimensionierten LLM lösen.
 
-Wir starten damit, was passiert ist und warum der Hype so eingeschlagen hat. Dann öffnen wir die IDE: im Live Coding zeige ich, wie ein Entscheidungsmodell funktioniert, wie du es aufrufst und wie es sich neben ein LLM und ganz normalen Code einfügt. Zum Schluss gehen wir Use Cases durch, von sinnvollen wie Routing, Moderation und Sortieren bis zu ein paar, die einfach nur Spass machen. In meiner eigenen App hat der Wechsel von einem LLM zu Jev die Wartezeit für eine sortierte Liste von acht bis elf Sekunden auf unter eine Sekunde gedrückt.
-
-Und weil kein Hype den Kontakt mit der Realität übersteht, schauen wir auch darauf, wo Entscheidungsmodelle daneben liegen.
+Zuerst ein kurzer Blick darauf, was passiert ist und warum der Hype so eingeschlagen hat. Dann öffnen wir die IDE: im Live Coding nehme ich eine Entscheidung, die irgendwo in ganz normalem Code vergraben liegt, und übergebe sie Jev. Dabei siehst du, wie man ein Entscheidungsmodell aufruft, was zurückkommt und wo sein Platz neben einem LLM und ganz normalem Code ist. Jev ist allerdings nicht die einzige Option, also schauen wir uns auch die Alternativen an, von lokalen Modellen auf der eigenen Maschine bis zu proprietären. Zum Schluss gehen wir Use Cases durch, von sinnvollen wie Routing, Moderation und Sortieren bis zu solchen, die einfach nur Spass machen. Und was ist ein Spiel, wenn nicht ein Zustand und die Frage nach dem nächsten Zug? Also lassen wir Jev am Ende live auf der Bühne spielen.
 
 Key Takeaways
 
-- Was Entscheidungsmodelle sind und wie sie sich von LLMs, Klassifikatoren und Rules Engines unterscheiden.
-- Wie du ein Entscheidungsmodell aus deinem eigenen Code aufrufst, live gezeigt.
-- Welche Entscheidungen in deiner Software gute Kandidaten sind und welche nicht.
-- Ein paar Ideen, die du am Montag ausprobieren kannst, manche nützlich, manche einfach nur zum Spass.
+- Was ein Entscheidungsmodell ist und wie es sich von einem LLM, einem klassischen Klassifikator und einer Rules Engine unterscheidet.
+- Wie du ein Entscheidungsmodell aus deinem eigenen Code aufrufst, live in der IDE gezeigt.
+- Welche Alternativen zu Jev es gibt, lokale und proprietäre, und wann du welche wählst.
+- Wie du gute Kandidaten in deiner Codebase erkennst und wann ein if-else oder ein LLM die bessere Wahl ist.
